@@ -3,8 +3,8 @@ html, body{
 	padding: 0;
 	background: #ffffff;
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-	color: #FFF;
-	font-size: 1.1rem;
+	color: #000;
+	font-size: 1.15rem;
 }
 
 body > header{
@@ -62,7 +62,6 @@ body > main{
 	display: flex;
 	gap: 16px;
 	flex-wrap: wrap;
-	flex-direction: column;
 	align-items: center;
 }
 
@@ -86,7 +85,7 @@ body > footer{
 .card-ticker{
 	width: 230px;
 	/* height: fit-content; */
-	background: #0a0a0a;
+	background: #7b7b7b34;
 	border-radius: 20px;
 	padding: 16px;
 	align-self: baseline;
@@ -165,10 +164,10 @@ th, td{
 }
 
 tr:nth-child(even){
-	background: #333333;
+	background: #fff;
 }
 tr:nth-child(odd){
-	background: #1c1c1c;
+	background: #7b7b7b52;
 }
 
 fieldset{
@@ -177,7 +176,7 @@ fieldset{
 	flex-direction: column;
 	padding: 30px;
 	border-radius: 15px;
-	margin: 0 0 30px 0;
+	margin: 0 30px 30px 0;
 }
 fieldset h5{
 	font-size: 1.1rem;	
@@ -193,30 +192,33 @@ input[type=text], input[type=email], input[type=password], select, textarea{
 	border-radius: 10px;
 	font-size: 18px;
 	margin: 3px 0 16px 0;
-	border: none;
-	background: #333333;
-	color: #FFF;
+	border: solid;
+	border-width: thin;
+	border-color: #000;
+	background: #fff;
+	color: #000;
 }
 
 input[type=submit], input[type=reset]{
-	border: 1px solid #ac3c00;
+	border: 1px solid #02bb2a;
 	color: #FFF;
 	border-radius: 30px;
 	padding: 10px 20px;
-	background: #ac3c00;
+	background: #02bb2a;
 	font-size: 1.1rem;
 	margin: 16px 16px 16px 0;
 	cursor: pointer; 
 }
 
 input[type=submit]:hover, input[type=reset]:hover{
-	background: #ff5900;
+	background: #03e734;
 }
 
 input[type=submit]:active, input[type=reset]:active{
-	background: #6a2501;
+	background: #028f21;
 }
 
+/*
 #banner {
 	width: 500px;
 	height: 300px;
@@ -227,6 +229,25 @@ input[type=submit]:active, input[type=reset]:active{
 	background-position: right bottom;
 	background: #333333 url('../img/bg-stock-market.jpg');
 	background-size: cover;
+}
+*/
+
+.titulo_quemsomos {
+	color: #000;
+}
+
+.img_sobrenos {
+	background-color: #000;
+	border-radius: 100%;
+	width: 700px;
+	height: 425px;
+}
+
+.img_sobrenos img {
+	/*width: 100px;*/
+	height: 400px;
+	display: flex;
+	align-items: center;
 }
 
 #banner h2{

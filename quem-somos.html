@@ -10,6 +10,18 @@
 		body > main{
 			flex-direction: column;
 		}
+
+		#texto_quemsomos {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			width: 80%;
+		}
+
+		#texto_quemsomos div {
+			display: flex;
+			flex-direction: column;
+		}
 	</style>
 </head>
 
@@ -29,14 +41,21 @@
 		</nav>
 	</header>
 	<main>
-		<h1>Quem Somos</h1>
-
-		<div id="banner">
-			<h2>Bem vindo!</h2>
+		<h1 class="titulo_quemsomos">Quem Somos</h1>
+		<div id="texto_quemsomos">
+			<div>
+				<p>Somos uma equipe apaixonada e comprometida na vanguarda das finanças, dedicados a fornecer soluções inteligentes e inovadoras para nossos clientes. Combinando experiência sólida e um olhar perspicaz para o futuro, estamos moldando o panorama financeiro com nossa abordagem centrada no cliente e nossa busca incessante pela excelência.</p>
+				<p>Nossa empresa é construída sobre os alicerces da integridade, transparência e confiança. Valorizamos cada relacionamento, cada transação, sabendo que cada interação é uma oportunidade para fazer a diferença na vida de nossos clientes. Nosso compromisso com a ética é inabalável, e nossa conduta exemplar é o que nos diferencia.</p>
+				<p>No coração de nossa empresa está a inovação. Abraçamos a mudança, adotando novas tecnologias e estratégias para oferecer soluções financeiras ágeis e adaptáveis. Estamos continuamente refinando nossos métodos, antecipando as necessidades do mercado e superando as expectativas.</p>
+				<p>Somos mais do que apenas uma empresa de finanças; somos parceiros em sua jornada financeira. Estamos aqui para capacitá-lo, para ajudá-lo a alcançar seus objetivos e realizar seus sonhos. Com nossa orientação especializada e nosso compromisso inabalável com seu sucesso, estamos prontos para enfrentar qualquer desafio e alcançar novos patamares juntos.</p>
+			</div>
+			<div class="img_sobrenos">
+				<img src="./img/quem_somos_nos.png" alt="Quem Somos Nós">
+			</div>
 		</div>
 	</main>
 	<footer>
-		<p>Copyright 2024 © Renan Cavichi</p>
+		<p>Copyright 2024 © Cauê F. Adriano</p>
 	</footer>
 </body>
 
