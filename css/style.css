@@ -1,36 +1,36 @@
 html, body{
 	margin: 0;
 	padding: 0;
-	background: #ffffff;
+	background: #202020;
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-	color: #000;
+	color: #fff;
 	font-size: 1.15rem;
 }
 
 body > header{
 	height: 140px;
-	background: #ffffff;
+	background: #000;
 	padding: 0 0 30px 0;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	color: #000;
+	color: #fff;
 }
 
 body > header nav a{
-	color: #000;
+	color: #fff;
 	text-decoration: none;
 	padding: 0 0 5px 0;
 }
 
 body > header nav a:hover{
-	color: #000;
-	border-bottom: 3px solid #000; 
+	color: #68e74f;
+	border-bottom: 3px solid #68e74f; 
 }
 
 body > header nav a.active{
-	color: #000;
-	border-bottom: 3px solid #000;
+	color: #3b812d;
+	border-bottom: 3px solid #3b812d;
 }
 
 .logotipo{
@@ -66,8 +66,8 @@ body > main{
 }
 
 body > footer{
-	background: #ffffff;
-	color: #000;
+	background: #000;
+	color: #fff;
 	height: 200px;
 	display: flex;
 	justify-content: center;
@@ -164,10 +164,10 @@ th, td{
 }
 
 tr:nth-child(even){
-	background: #fff;
+	background: #000;
 }
 tr:nth-child(odd){
-	background: #7b7b7b52;
+	background: #2c2c2c;
 }
 
 fieldset{
@@ -233,11 +233,11 @@ input[type=submit]:active, input[type=reset]:active{
 */
 
 .titulo_quemsomos {
-	color: #000;
+	color: #fff;
 }
 
 .img_sobrenos {
-	background-color: #000;
+	background-color: #7b7b7b34;
 	border-radius: 100%;
 	width: 700px;
 	height: 425px;
