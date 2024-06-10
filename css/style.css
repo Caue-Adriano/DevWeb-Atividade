@@ -54,6 +54,7 @@ nav ul{
 	gap: 16px;
 	margin: 0;
 	padding: 0;
+	align-items: center;
 }
 
 body > main{
@@ -84,6 +85,7 @@ body > footer{
 
 .card-ticker{
 	width: 230px;
+	position: relative;
 	/* height: fit-content; */
 	background: #7b7b7b34;
 	border-radius: 20px;
@@ -91,6 +93,11 @@ body > footer{
 	align-self: baseline;
 	margin-right: 16px;
 	margin-top: 16px;
+}
+
+.card-menu span {
+	cursor: pointer;
+	padding: 20px;
 }
 
 .card-ticker header{
@@ -300,4 +307,47 @@ nav div{
 	.card-ticker {
 		width: 100%;
 	}
+}
+
+button {
+	background: #68e74f;
+	color: #FFF;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.modal {
+	position: absolute;
+	background: #000000e1;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	display: none;
+	justify-content: center;
+	align-items: center;
+}
+
+.modal main{
+	width: 300px;
+	background: #141414;
+	border-radius: 15px;
+	padding: 20px;
+	color: #FFF;
+}
+
+.modal main h2{
+	margin: 0;
+}
+
+.modal main form{
+	margin: 20px 0 0 0;
+	display: flex;
+	flex-direction: column;
+}
+
+.modal main form button{
+	margin: 20px 0 0 0;
 }
